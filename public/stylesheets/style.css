@@ -1,0 +1,179 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h1 , h2 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    background-color: #333;
+    overflow: hidden;
+}
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #111;
+  }
+
+/*------*/
+
+ul {
+    list-style: none;
+}
+
+
+p {
+    text-align: center;
+}
+
+.titles {
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image {
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.image-reunion , .trilogy {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .thisisheavy {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .homeParagraph {
+    font-size: 22px;
+    text-align: center;
+    width: 80%;
+    padding-left: 122px;
+  }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 55px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .movie-title {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.movie-title h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.movie-title p {
+  font-size: 24px;
+  margin: 0;
+}
+
+.movie-dialogue {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #CD4542;
+}
+
+.movie-dialogue p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.page404{
+    background-color: black;
+    padding: 5%;
+    text-align: center;
+}
+
+article{
+    font-weight: bolder;
+    padding: 5%;
+    font-size: 30px;
+}
+
+span{
+    font-size: 50px;
+}
+
+.columnM {
+    width: 33.33%;
+    float: left;
+    padding: 55px;
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.image-the-best {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
